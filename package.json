@@ -1,0 +1,16 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "demo:dev": "demosify --serve",
+    "demo:prod": "demosify --prod"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/standalone": "^7.14.6",
+    "@demosify/core": "^0.7.0"
+  }
+}
